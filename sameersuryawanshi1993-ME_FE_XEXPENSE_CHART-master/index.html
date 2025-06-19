@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Chart</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Balance Section -->
+    <div class="balance">
+      <div>
+        <p>My Balance</p>
+        <p class="balance_amount">$921.48</p>
+      </div>
+      <div class="toggle" tabindex="0" aria-label="Toggle theme"></div>
+    </div>
+    <!-- Spending Chart Section -->
+    <div class="spending">
+      <h2>Spending - Last 7 days</h2>
+      <div id="spending-chart" class="spending-chart"></div>
+    </div>
+    <!-- Monthly Summary Section -->
+    <div class="summary">
+      <p class="spending_total">Total this month <span>$478.33</span></p>
+      <p class="spending_comparison">+2.4% <span>from last month</span></p>
+    </div>
+    <footer>
+      Challenge by <a href="#">Crio.Do</a>. Coded by <a href="#">Ketan</a>.
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
